@@ -1,2 +1,3 @@
+include ':projection_module'
 include ':app'
 rootProject.name = "AndroidMediaLearn"

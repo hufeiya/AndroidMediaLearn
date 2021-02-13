@@ -1,0 +1,4 @@
+<resources>
+    <string name="start_push_steam">Start Push Steam</string>
+    <string name="stop_push_stream">Stop Push Stream</string>
+</resources>

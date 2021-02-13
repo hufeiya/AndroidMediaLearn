@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidMediaLearn</string>
+    <string name="projection_server">Projection Server</string>
+    <string name="projection_client">Projection Client</string>
 </resources>

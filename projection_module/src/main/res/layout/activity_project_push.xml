@@ -4,30 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".push.ProjectionPushActivity">
 
     <Button
-        android:id="@+id/bt_projection_server"
+        android:id="@+id/bt_start_push"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="@string/projection_server"
-        android:onClick="jumpToProjectionServer"
-        android:textSize="20sp"/>
-
-    <Button
-        android:id="@+id/bt_projection_client"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/bt_projection_server"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:text="@string/projection_client"
-        android:onClick="jumpToProjectionClient"
+        android:text="@string/start_push_steam"
+        android:onClick="switchPushState"
         android:textSize="20sp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
